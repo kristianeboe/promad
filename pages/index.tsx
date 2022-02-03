@@ -157,14 +157,14 @@ export default function Home() {
             {/* Content area */}
             <div className="pt-12 sm:pt-16 lg:pt-20">
               <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                On a mission to empower teams
+                On a mission to empower remote workers everywhere
               </h2>
               <div className="mt-6 space-y-6 text-gray-500">
                 <p className="text-lg">
-                  Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed
-                  consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu
-                  morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae
-                  fames senectus vitae.
+                  The internet has allowed many people to live, work and form communities how they
+                  choose -- outside the life script of their home country. The first people to take
+                  advantage of this oportunity where digital nomads, but now remote work is making
+                  the lifestyle more common.
                 </p>
                 <p className="text-base leading-7">
                   Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem

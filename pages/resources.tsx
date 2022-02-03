@@ -9,23 +9,25 @@ import {
 const transferFeatures = [
   {
     id: 1,
-    name: 'Competitive exchange rates',
+    name: `Safety Wing is
+    your home country
+    on the internet`,
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'They are here to remove the role of geographical borders as a barrier to equal opportunities and freedom for everyone.',
     icon: GlobeAltIcon,
   },
   {
     id: 2,
-    name: 'No hidden fees',
+    name: 'Nomad Insurance',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'A travel and medical incident insurance built specifically for digital nomads. It can be purchased while already abroad, covers home trip visits and operates like a monthly subscription.',
     icon: ScaleIcon,
   },
   {
     id: 3,
-    name: 'Transfers are instant',
+    name: 'Remote Health',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Remote Health insurance is a fully fledged health insurance for remote teams and entrepreneurs. It gives global companies a truly flexible solution that no other insurance company offers.',
     icon: LightningBoltIcon,
   },
 ];
@@ -112,12 +114,13 @@ export default function Resources() {
           <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
             <div className="relative">
               <h3 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
-                Transfer funds world-wide
+                World-wide insurance with Safety Wing
               </h3>
               <p className="mt-3 text-lg text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima sequi
-                recusandae, porro maiores officia assumenda aliquam laborum ab aliquid veritatis
-                impedit odit adipisci optio iste blanditiis facere. Totam, velit.
+                The internet has allowed many people to live, work and form communities how they
+                choose -- outside the life script of their home country. The first people to take
+                advantage of this oportunity where digital nomads, but now remote work is making the
+                lifestyle more common.
               </p>
 
               <dl className="mt-10 space-y-10">
