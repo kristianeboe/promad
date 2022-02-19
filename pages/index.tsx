@@ -46,7 +46,7 @@ export default function Home() {
                   </div>
                   <div className="mt-3 sm:mt-0 sm:ml-3">
                     <a
-                      href="https://discord.gg/WdxWKDH8"
+                      href="https://discord.gg/VgnQYrsbxD"
                       target="_blank"
                       className="flex w-full items-center justify-center rounded-md border border-transparent bg-cyan-100 px-8 py-3 text-base font-medium text-cyan-700 hover:bg-cyan-200 md:py-4 md:px-10 md:text-lg"
                       rel="noreferrer"
@@ -110,11 +110,13 @@ export default function Home() {
             <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
               {/* Testimonial card*/}
               <div className="relative overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl">
-                <img
+                <Image
                   className="absolute inset-0 h-full w-full object-cover"
-                  src="https://images.unsplash.com/photo-1521510895919-46920266ddb3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&fp-x=0.5&fp-y=0.6&fp-z=3&width=1440&height=1440&sat=-100"
+                  src={
+                    'https://images.unsplash.com/photo-1521510895919-46920266ddb3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&fp-x=0.5&fp-y=0.6&fp-z=3&width=1440&height=1440&sat=-100'
+                  }
                   alt=""
-                />
+                ></Image>
                 <div className="absolute inset-0 bg-cyan-500 mix-blend-multiply" />
                 <div className="absolute inset-0 bg-gradient-to-t from-cyan-600 via-cyan-600 opacity-90" />
                 <div className="relative px-8">
@@ -197,7 +199,7 @@ export default function Home() {
               <div className="mt-10">
                 <a href="#" className="text-base font-medium text-cyan-600">
                   {' '}
-                  Learn more about how we're changing the world{' '}
+                  Learn more about how we&apos;re changing the world{' '}
                   <span aria-hidden="true">&rarr;</span>{' '}
                 </a>
               </div>
@@ -274,8 +276,8 @@ export default function Home() {
               />
               <blockquote className="mt-6 text-white">
                 <p className="text-xl font-medium sm:text-2xl">
-                  Workflow has completely transformed how we interact with customers. We've seen
-                  record bookings, higher customer satisfaction, and reduced churn.
+                  Workflow has completely transformed how we interact with customers. We&apos;ve
+                  seen record bookings, higher customer satisfaction, and reduced churn.
                 </p>
                 <footer className="mt-6">
                   <p className="flex flex-col font-medium">
